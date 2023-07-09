@@ -15,15 +15,19 @@ France
 Canada
 Brazil
 South Korea
-### SQL code
-SELECT TOP 10
-  Country,
-  COUNT(*) AS Startup_Count
-FROM [GitHub-Project].[dbo].[World_Wide-Unicorn-Company-List]
-GROUP BY
-  Country
-ORDER BY
-  Startup_Count DESC;
+
+2- Which are the three cities with the most startups? 
+City	Startup_Count
+San Francisco with total 169 startups, following by Newyork with 115 and Beijing with 62 Startups.
+
+3- How many Unicorns are there in Artificial intelligence industry? ← (They’re all unicorns valued at $1B each)
+| Industry                   | Unicorn_Count |
+|----------------------------|---------------|
+| Artificial intelligence    | 25            |
+| Auto & transportation      | 3             |
+
+
+
 ### Tool Used
 SQL code in Microsoft SQL Server
 
