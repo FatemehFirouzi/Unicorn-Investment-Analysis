@@ -20,12 +20,30 @@ South Korea
 City	Startup_Count
 San Francisco with total 169 startups, following by Newyork with 115 and Beijing with 62 Startups.
 
-3- How many Unicorns are there in Artificial intelligence industry? ← (They’re all unicorns valued at $1B each)
+3- How many Unicorns are there in Artificial intelligence industry and Auto & transportation industry? ← (They’re all unicorns valued at $1B each)
 | Industry                   | Unicorn_Count |
 |----------------------------|---------------|
 | Artificial intelligence    | 25            |
 | Auto & transportation      | 3             |
 
+4- Which are the most valuable unicorn?
+ByteDance with 140 Valuation ($B).
+
+5- How many companies have joined the club of unicorns each year? In which year do we have the most unicorns?
+| Join_Year | Unicorn_Count | 
+|-----------|---------------|
+| 2021      | 524           |
+| 2022      | 252           |
+| 2020      | 106           | 
+| 2019      | 102           | 
+| 2018      | 97            |
+| 2017      | 42            | 
+| 2015      | 34            | 
+| 2016      | 21            |
+| 2014      | 12            |
+| 2012      | 4             | 
+| 2013      | 3             |
+| 2011      | 2             |
 
 
 ### Tool Used
