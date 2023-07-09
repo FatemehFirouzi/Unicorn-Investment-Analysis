@@ -3,7 +3,8 @@ This personal project involves utilizing the "Unicorn Startup Data Til September
 
 ## Summary
 After conducting data cleaning, including addressing inconsistent and invalid data for some columns, I proceeded with exploratory data analysis (EDA) using SQL, and have obtained the following result for these questions:
-Which are the top ten countries with the most startups? Based on the provided result, the top ten countries with the most startups, in descending order, are:
+### Questions
+1- Which are the top ten countries with the most startups? Based on the provided result, the top ten countries with the most startups, in descending order, are:
 United States
 China
 India
