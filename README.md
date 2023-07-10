@@ -45,7 +45,27 @@ ByteDance with 140 Valuation ($B).
 | 2013      | 3             |
 | 2011      | 2             |
 
-6- Which VC firm is most active/present in the data set?
+6- What is the global unicorn activity by industry Global unicorn activity by industry?
+| Industry                            | Unicorn_Count | 
+|-------------------------------------|---------------|
+| Fintech                             | 251           |
+| Edtech                              | 32            |
+| Auto & Transportation               | 38            | 
+| Health                              | 95            | 
+| Supply Chain, logistics, & delivery | 67            |
+| Consumer & retail                   | 30            | 
+| Artificial intelligence             | 89            | 
+| Mobile & telecommunications         | 39            |
+| Hardware                            | 40            |
+| E-commerce & direct-to-consumer     | 107           | 
+| Travel                              | 14            |
+| Cybersecurity                       | 58            |
+| Other                               | 65            |
+| Internet software & services        | 229           |
+| Data management & anlaytics         | 45            |
+
+
+7- Which VC firm is most active/present in the data set?
 Among all venture capital firms, General Atlantic is the most active in this dataset with three investments.
 
 ### Tool Used
