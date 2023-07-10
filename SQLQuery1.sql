@@ -6,7 +6,9 @@ SELECT TOP (1000) [Company]
       ,[City]
       ,[Industry]
       ,[Select_Investors]
-  FROM [GitHUb-Project].[dbo].[World_Wide-Unicorn-Company-List]
+FROM [GitHUb-Project].[dbo].[World_Wide-Unicorn-Company-List]
+
+  /****** Q1  ******/
 SELECT TOP 10
   Country,
   COUNT(*) AS Startup_Count
@@ -16,6 +18,7 @@ GROUP BY
 ORDER BY
   Startup_Count DESC;
 
+  /****** Q2  ******/
 SELECT TOP 10
   City,
   COUNT(*) AS Startup_Count
@@ -25,6 +28,7 @@ GROUP BY
 ORDER BY
   Startup_Count DESC;
 
+    /****** Q3  ******/
 SELECT
   Industry,
   COUNT(*) AS Unicorn_Count
@@ -34,6 +38,7 @@ WHERE
 GROUP BY
   Industry;
 
+    /****** Q4  ******/
 SELECT TOP 10
   Company,
   Valuation_B,
@@ -46,7 +51,7 @@ FROM [GitHUb-Project].[dbo].[World_Wide-Unicorn-Company-List]
 ORDER BY
   Valuation_B DESC;
 
-
+  /****** Q5  ******/
 SELECT
   YEAR(Date_Joined) AS Join_Year,
   COUNT(*) AS Unicorn_Count
@@ -58,6 +63,7 @@ GROUP BY
 ORDER BY
   Unicorn_Count DESC;
 
+  /****** Q6  ******/
 SELECT
   Industry,
   COUNT(*) AS Unicorn_Count
@@ -65,6 +71,7 @@ FROM [GitHUb-Project].[dbo].[World_Wide-Unicorn-Company-List]
 GROUP BY
   Industry;
 
+  /****** Q7  ******/
 SELECT TOP 1 *
 FROM (
   SELECT TOP 1
