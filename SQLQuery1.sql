@@ -64,3 +64,19 @@ SELECT
 FROM [GitHUb-Project].[dbo].[World_Wide-Unicorn-Company-List]
 GROUP BY
   Industry;
+
+SELECT TOP 1 *
+FROM (
+  SELECT TOP 1
+    Select_Investors,
+    COUNT(*) AS Investment_Count
+  
+ FROM [GitHUb-Project].[dbo].[World_Wide-Unicorn-Company-List]
+  WHERE
+    Select_Investors IS NOT NULL
+  GROUP BY
+    Select_Investors
+  ORDER BY
+    Investment_Count DESC
+) AS T
+ORDER BY Investment_Count DESC;
