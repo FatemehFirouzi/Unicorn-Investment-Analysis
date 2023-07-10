@@ -45,6 +45,8 @@ ByteDance with 140 Valuation ($B).
 | 2013      | 3             |
 | 2011      | 2             |
 
+6- Which VC firm is most active/present in the data set?
+Among all venture capital firms, General Atlantic is the most active in this dataset with three investments.
 
 ### Tool Used
 SQL code in Microsoft SQL Server
