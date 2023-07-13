@@ -1,8 +1,8 @@
 # Unicorn-Investment-Analysis
-This personal project involves utilizing the "Unicorn Startup Data Til September 2022" dataset to perform exploratory data analysis (EDA) using SQL in Microsoft SQL Server. The objective of this project is to gain insights and conduct market analysis by leveraging SQL queries to answer various analytical questions.
+This project collaboration involves utilizing the "Unicorn Startup Data Til September 2022" dataset to perform exploratory data analysis (EDA) using SQL in Microsoft SQL Server. The objective of this project is to gain insights and conduct market analysis by leveraging SQL queries to answer various analytical questions.
 
 ## Summary
-After conducting data cleaning, including addressing inconsistent and invalid data for some columns, I proceeded with exploratory data analysis (EDA) using SQL, and have obtained the following result for these questions:
+After conducting data cleaning, including addressing inconsistent and invalid data for some columns, we proceeded with exploratory data analysis (EDA) using SQL, and have obtained the following result for these questions:
 ### Questions
 1- Which are the top ten countries with the most startups? Based on the provided result, the top ten countries with the most startups, in descending order, are:
 United States
