@@ -87,3 +87,35 @@ FROM (
     Investment_Count DESC
 ) AS T
 ORDER BY Investment_Count DESC;
+
+  /****** Q8  ******/
+  SELECT
+  CASE
+    WHEN Industry LIKE  '%Tech%' THEN 'Tech Firm'
+    ELSE 'Non-Tech Firm'
+  END AS Firm_Type,
+  COUNT(*) AS Investment_Count
+FROM [GitHUb-Project].[dbo].[World_Wide-Unicorn-Company-List]
+WHERE
+  City LIKE '%San Francisco%'
+GROUP BY
+  CASE
+    WHEN Industry LIKE  '%Tech%' THEN 'Tech Firm'
+    ELSE 'Non-Tech Firm'
+  END;
+
+  SELECT
+  CASE
+    WHEN Industry LIKE  '%Tech%' THEN 'Tech Firm'
+    ELSE 'Non-Tech Firm'
+  END AS Firm_Type,
+  COUNT(*) AS Investment_Count,   YEAR(Date_Joined) AS Join_Year
+FROM [GitHUb-Project].[dbo].[World_Wide-Unicorn-Company-List]
+WHERE
+  City LIKE '%San Francisco%'
+GROUP BY
+  CASE
+    WHEN Industry LIKE  '%Tech%' THEN 'Tech Firm'
+    ELSE 'Non-Tech Firm'
+  END
+  , YEAR(Date_Joined);
