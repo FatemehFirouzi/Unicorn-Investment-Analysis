@@ -119,3 +119,16 @@ GROUP BY
     ELSE 'Non-Tech Firm'
   END
   , YEAR(Date_Joined);
+
+
+  /****** Q9  ******/
+
+  SELECT
+YEAR(Date_Joined) AS year,
+COUNT(Valuation_B) AS count
+FROM
+  [GitHUb-Project].[dbo].[World_Wide-Unicorn-Company-List]
+WHERE Date_Joined BETWEEN '2007-01-01' AND '2022-09-30'
+AND country = 'China'
+GROUP BY YEAR(Date_Joined)
+ORDER BY YEAR(Date_Joined) DESC;
