@@ -90,6 +90,21 @@ Analyzing the investment trends during the specified period, it is evident that 
 | Non_Tech Firm   | 23               | 2022     |
 | Tech Firm       | 11               | 2022     |
 
+9- Is China really on the rise? How many investments have Chinese firms received from American VC firms? Are there particular VC firms which invest more in Chinese firms?
+There has been a clear increase in Chinese firms receiving investments over time compared to the beginning of the data set. Given how 2022 data has been cut, 2021 was the most successful year for Chinese firms.
+| Year      | Count | 
+|-----------|-------|
+| 2022      | 8     |
+| 2021      | 44    |
+| 2020      | 11    | 
+| 2019      | 23    | 
+| 2018      | 37    |
+| 2017      | 18    | 
+| 2016      | 12    | 
+| 2015      | 19    |
+| 2014      | 1     |
+
+
 ### Tool Used
 SQL code in Microsoft SQL Server
 
