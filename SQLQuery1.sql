@@ -120,6 +120,17 @@ GROUP BY
   END
   , YEAR(Date_Joined);
 
+  /****** Covid Period  ******/
+SELECT
+TOP 5 city,
+COUNT(Valuation_B)
+FROM
+  [GitHUb-Project].[dbo].[World_Wide-Unicorn-Company-List]
+WHERE country = 'United States'
+AND Date_Joined BETWEEN '2019-12-01' AND '2022-09-30'
+GROUP BY city 
+ORDER BY COUNT(Valuation_B) DESC;
+
 
   /****** Q9  ******/
 
