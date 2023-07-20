@@ -90,6 +90,7 @@ Analyzing the investment trends during the specified period, it is evident that 
 | Non_Tech Firm   | 23               | 2022     |
 | Tech Firm       | 11               | 2022     |
 
+
 9- Is China really on the rise? How many investments have Chinese firms received from American VC firms? Are there particular VC firms which invest more in Chinese firms?
 There has been a clear increase in Chinese firms receiving investments over time compared to the beginning of the data set. Given how 2022 data has been cut, 2021 was the most successful year for Chinese firms.
 | Year      | Count | 
@@ -104,6 +105,15 @@ There has been a clear increase in Chinese firms receiving investments over time
 | 2015      | 19    |
 | 2014      | 1     |
 
+10 -  Is SF/Silicon Valley still the hub for VC? Is there Any change in geographical location investments throughout the US during COVID?
+Yes, SF with 169 investment out of the total 171 investments is still the main hub for VC.
+During Covid the Bay Area remained in the top 5 consistently. 
+Top5: 
+- San Francisco with 135 investments,
+- New York with 101 investments,
+- Boston with 15 investments,
+- Palo Alto with 15 investments,
+- Chicago with 13 investments.
 
 ### Tool Used
 SQL code in Microsoft SQL Server
