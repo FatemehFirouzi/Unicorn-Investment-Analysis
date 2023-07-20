@@ -120,17 +120,6 @@ GROUP BY
   END
   , YEAR(Date_Joined);
 
-  /****** Covid Period  ******/
-SELECT
-TOP 5 city,
-COUNT(Valuation_B)
-FROM
-  [GitHUb-Project].[dbo].[World_Wide-Unicorn-Company-List]
-WHERE country = 'United States'
-AND Date_Joined BETWEEN '2019-12-01' AND '2022-09-30'
-GROUP BY city 
-ORDER BY COUNT(Valuation_B) DESC;
-
 
   /****** Q9  ******/
 
@@ -143,3 +132,30 @@ WHERE Date_Joined BETWEEN '2007-01-01' AND '2022-09-30'
 AND country = 'China'
 GROUP BY YEAR(Date_Joined)
 ORDER BY YEAR(Date_Joined) DESC;
+
+
+
+  /****** Q10  ******/
+ SELECT
+  City,
+  COUNT(*) AS Investment_Count
+FROM
+  [GitHUb-Project].[dbo].[World_Wide-Unicorn-Company-List]
+WHERE
+  Country = 'United States'
+GROUP BY
+  City
+ORDER BY
+  Investment_Count DESC;
+
+
+
+SELECT
+TOP 5 city,
+COUNT(Valuation_B)
+FROM
+  [GitHUb-Project].[dbo].[World_Wide-Unicorn-Company-List]
+WHERE country = 'United States'
+AND Date_Joined BETWEEN '2019-12-01' AND '2022-09-30'
+GROUP BY city 
+ORDER BY COUNT(Valuation_B) DESC;
